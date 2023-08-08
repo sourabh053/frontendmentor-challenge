@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    font-family: myFirstFont;
+  }
+  
+  @font-face {
+    font-family: myFirstFont;
+    src: url(HankenGrotesk-VariableFont_wght.ttf);
+}
+  div{
+    /* border: 1px solid black; */
+  }
+  #main{
+    display: flex;
+    width: 36%;
+    height: 300px;
+    margin:0 auto;
+    margin-top: 15%;
+    border-radius: 20px;
+    background-color:  hsl(0, 0%, 100%);
+    box-shadow: 5px 5px 8px hsl(221, 100%, 96%) ;
+  }
+  #left{
+    flex:50%;
+    text-align: center;
+    border-radius: 20px;
+    background-image: linear-gradient(180deg,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: hsl(241, 100%, 89%)
+  }
+  #right{
+    flex: 50%;
+    text-align: center;
+    /* border: 1px solid black; */
+  }
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+  .data{
+    width: 80%;
+    min-height: 32px;
+    margin:15px auto;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color:  hsl(0,80%, 95%);
+  }
+  .dt1{
+    display:flex; 
+    width: 50%;
+    height: 32px;
+  }
+  .dt2{
+    width: 50%;
+    height: 32px;
+  }
+  .dt3{
+    float:right;
+    margin:8px;
+  }
+  img {
+    max-width: 40%;
+    max-height: 40%;
+    margin: 8px 5px;
+    /* border: 1px solid black; */
+   }
+  #smry{
+    color: hsl(224, 30%, 27%);
+    margin: 5px 0;
+    float: left;
+  }
+  .boxs{
+    margin: 8px 0;
+    color: hsl(0, 60%, 57%);
+    /* border: 1px solid black; */
+
+  }
+  #btn{
+    width: 80%;
+    height: 30px;
+    margin-top: 8px;
+    border-radius: 20px;
+    background-color:  hsl(224, 30%, 27%);
+    border: 0;
+    color:  hsl(0, 0%, 100%);
+    font-size: x-small;
+    font-weight: bold;
+  }
+  #circle{
+    width: 50%;
+    height: 105px;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(180deg,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+
+  }
+  #big{
+    font-size: 40px;
+    font-weight: bold;
+    color:  hsl(0, 0%, 100%);
+  }
+  #desc{
+    font-size: 11px;
+    width: 74%;
+    margin: 0 auto;
+  }
+  #grt{
+    margin:15px 0;
+    color:  hsl(0, 0%, 100%);
+  }
