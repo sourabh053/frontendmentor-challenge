@@ -20,5 +20,6 @@ let data = [
       "icon": "./assets/images/icon-visual.svg"
     }
   ]
-
+  document.getElementById("image").src = data[0].icon
 document.getElementById("rxn").innerText = data[0].category
+document.getElementById("score").innerText = data[0].score+"     "
