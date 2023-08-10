@@ -31,12 +31,12 @@ The challenge was building out a results summary component and getting it as clo
 
 ### Links
 
-- Githup Repo URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Githup Repo URL: [Github Repo](https://github.com/sourabh053/frontendmentor-challenge)
+- Live Site URL: [Live site](https://keen-lebkuchen-329504.netlify.app/)
 
 ## My process
 
-firstly i made a rough blueprint of the site a figured out where to use what element and whcih element should be nested into other and which elemnts should have classes and ids. after making basic html i stated on css and started to find the colors used in the project and with the help of google also got to learn some new JS concepts.
+firstly i made a rough blueprint of the site a figured out where to use what element and which element should be nested into other and which elements should have classes and ids. after making basic html i stated on css and started to find the colors used in the project and with the help of google also got to learn some new JS concepts.
 
 ### Built with
 
@@ -51,15 +51,13 @@ firstly i made a rough blueprint of the site a figured out where to use what ele
 
 I learned many new things during this project in HTML/CSS and JS.
 
--> HTML
-In HTML i lerned that the inline css is superier to internal and external css so if a class is applied to the whole section and u want one of its children to be of ther color then we can simply apply inline css and it will overrigth the parent element design. for ex- in below example boxs class is applied to the h6 tag which has light red color.
+-> In HTML i lerned that the inline css is superier to internal and external css so if a class is applied to the whole section and u want one of its children to be of other color then we can simply apply inline css and it will overright the parent element design. Like in below example boxs class is applied to the h6 tag which has light red color.
 ```html
  <h6 class="boxs"><span></span></h6>
 ```
 ```css
 .boxs {
   color: hsl(0, 60%, 57%);
-;
 }
 ```
 but we want the span element to be of other color then we can simply apply inline css here like this
@@ -67,11 +65,9 @@ but we want the span element to be of other color then we can simply apply inlin
 <h6 class="boxs" style="color: hsl(39, 85%, 56%);"><span ></span></h6>
 ```
 
-->CSS
-in CSS i learned a lot of new properties like box-sizing,how to apply gradient,about hsl and hsla colors, about rgb and grba colors,min-height etc.
+-> In CSS i learned a lot of new properties like box-sizing,how to apply gradient,about hsl and hsla colors, about rgb and grba colors,min-height etc.
 
-->JS
-in JS i learned how to store data from external local JSON file in a JavaScript variable by using fetch API and how to use the local JSON data to dynamically populate the your content. I also leraned about how to give source for a image using JS. 
+-> In JS i learned how to store data from external local JSON file in a JavaScript variable by using fetch API and how to use the local JSON data to dynamically populate the your content. I also leraned about how to give source for a image using JS. 
 
 ```js
 fetch('data.json')
@@ -85,7 +81,7 @@ fetch('data.json')
 
 ### Useful resources
 
-- [resource 1](https://www.w3schools.com/) - This site helped me a lot in figuring out CSS properties.
+- [w3schools](https://www.w3schools.com/) - This site helped me a lot in figuring out CSS properties.
 
 ## Author
 
