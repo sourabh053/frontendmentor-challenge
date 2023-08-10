@@ -38,7 +38,7 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
-    background-color:  hsl(0,80%, 95%);
+    background-color:  hsla(0, 100%, 67%,0.1);
   }
   .dt1{
     display:flex; 
@@ -65,7 +65,7 @@
   }
   .boxs{
     margin: 8px 0;
-    color: hsl(0, 60%, 57%);
+    color: hsl(0, 60%, 67%);
   }
   #btn{
     width: 80%;
