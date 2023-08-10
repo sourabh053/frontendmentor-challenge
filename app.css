@@ -27,7 +27,6 @@
   #right{
     flex: 50%;
     text-align: center;
-    /* border: 1px solid black; */
   }
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
@@ -36,7 +35,6 @@
     min-height: 32px;
     margin:10px auto;
     border-radius: 5px;
-    /* border: 1px solid black; */
     padding: 0;
     display: flex;
     justify-content: space-between;
@@ -59,7 +57,6 @@
     max-width: 40%;
     max-height: 40%;
     margin: 8px 5px;
-    /* border: 1px solid black; */
    }
   #smry{
     color: hsl(224, 30%, 27%);
@@ -69,8 +66,6 @@
   .boxs{
     margin: 8px 0;
     color: hsl(0, 60%, 57%);
-    /* border: 1px solid black; */
-
   }
   #btn{
     width: 80%;
