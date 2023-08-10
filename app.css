@@ -140,4 +140,7 @@
     background-image: linear-gradient(180deg,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     color: hsl(241, 100%, 89%);
   }
+  .attribution { 
+    display: none;
+  }
 }
