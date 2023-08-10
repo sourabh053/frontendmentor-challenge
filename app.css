@@ -1,3 +1,5 @@
+@media screen and (min-width:1225px){
+
 *{
     box-sizing: border-box;
     font-family: myFirstFont;
@@ -113,3 +115,29 @@
   .byh{
     color: hsl(241, 50%, 80%);
   }
+
+}
+
+@media screen and (max-width:600px){
+  *{
+    box-sizing: border-box;
+    font-family: myFirstFont;
+  }
+  
+  @font-face {
+    font-family: myFirstFont;
+    src: url(HankenGrotesk-VariableFont_wght.ttf);
+}
+  #main{
+    width: 100vw;
+    height: 100vw;
+    margin:0 auto;
+    background-color:  hsl(0, 0%, 100%);
+  }
+  #left{
+    text-align: center;
+    border-radius: 20px;
+    background-image: linear-gradient(180deg,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: hsl(241, 100%, 89%);
+  }
+}
