@@ -31,7 +31,6 @@ The challenge was building out a results summary component and getting it as clo
 
 ### Links
 
-- Githup Repo URL: [Github Repo](https://github.com/sourabh053/frontendmentor-challenge)
 - Live Site URL: [Live site](https://keen-lebkuchen-329504.netlify.app/)
 
 ## My process
