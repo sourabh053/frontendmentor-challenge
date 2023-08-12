@@ -1,4 +1,3 @@
-@media screen and (min-width:601px){
 
 *{
     box-sizing: border-box;
@@ -11,7 +10,7 @@
 }
   #main{
     display: flex;
-    width: 36%;
+    width: 420px;
     height: 300px;
     margin:0 auto;
     margin-top: 10%;
@@ -30,7 +29,7 @@
     flex: 50%;
     text-align: center;
   }
-  .attribution { font-size: 11px; text-align: center; }
+  .attribution { font-size: 11px; text-align: center; margin-top: 1rem; }
   .attribution a { color: hsl(228, 45%, 44%); }
   .data{
     width: 80%;
@@ -79,6 +78,7 @@
     color:  hsl(0, 0%, 100%);
     font-size: x-small;
     font-weight: bold;
+    cursor:pointer;
   }
   #btn:hover{
     background-image: linear-gradient(180deg,#5039F5,#4132EF);
@@ -116,45 +116,31 @@
     color: hsl(241, 50%, 80%);
   }
 
-}
-
 @media screen and (max-width:600px){
   *{
-    box-sizing: border-box;
-    font-family: myFirstFont;
     margin:0;
   }
-  
-  @font-face {
-    font-family: myFirstFont;
-    src: url(HankenGrotesk-VariableFont_wght.ttf);
-}
   #main{
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     margin:0 auto;
+    border-radius: 0;
     background-color:  hsl(0, 0%, 100%);
+    flex-direction: column;
   }
   #left{
-    text-align: center;
-    height:60%;
-    border-radius: 0 0 20px 20px;
-    background-image: linear-gradient(180deg,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
-    color: hsl(241, 100%, 89%);
+    border-radius: 0 0 2rem 2rem;
+  }
+  #left h5{
+    margin-top: 1rem;
+  }
+  #circle{
+    width: 100px;
+    height: 100px;
+    margin-top: 1rem;
   }
   .attribution { 
     display: none;
   }
-  #circle{
-    width: 50%;
-    height: 105px;
-    margin: 0 auto;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-image: linear-gradient(180deg,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
-
-  }
+ 
 }
