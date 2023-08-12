@@ -130,6 +130,7 @@
   }
   #left{
     border-radius: 0 0 2rem 2rem;
+    height:40vh;
   }
   #left h5{
     margin-top: 1rem;
