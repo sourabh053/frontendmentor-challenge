@@ -43,7 +43,6 @@ firstly i made a rough blueprint of the site a figured out where to use what ele
 - CSS custom properties
 - Basic JavaScript
 - Flexbox
-- Desktop-first workflow
 
 
 ### What I learned
@@ -64,7 +63,7 @@ but we want the span element to be of other color then we can simply apply inlin
 <h6 class="boxs" style="color: hsl(39, 85%, 56%);"><span ></span></h6>
 ```
 
--> In CSS i learned a lot of new properties like box-sizing,how to apply gradient,about hsl and hsla colors, about rgb and grba colors,min-height etc.
+-> In CSS i learned a lot of new properties like box-sizing,how to apply gradient,about hsl and hsla colors, about rgb and grba colors,min-height etc. But the most intersting thing i leraned is about Media Queries and how to make a site responsive so that it works well with all screen sizes.
 
 -> In JS i learned how to store data from external local JSON file in a JavaScript variable by using fetch API and how to use the local JSON data to dynamically populate the your content. I also leraned about how to give source for a image using JS. 
 
